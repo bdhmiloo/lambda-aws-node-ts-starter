@@ -1,0 +1,9 @@
+{
+  "name": "ts-lambda-layer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
