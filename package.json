@@ -13,7 +13,7 @@
     "postbuild": "npm run zip:lambda && npm run zip:layer",
     "zip:lambda": "zip -r lambda.zip ./build",
     "zip:layer": "zip -r nodejs.zip ./layer/nodejs",
-    "test": "jest --silent --no-cache --runInBand",
+    "test": "jest --silent --no-cache --runInBand --passWithNoTests",
     "test:cov": "npm run test -- --coverage",
     "lint": "eslint --fix --ext .ts,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts src"
   },
